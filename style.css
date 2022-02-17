@@ -1,0 +1,141 @@
+/* html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
+
+.p-text{
+    font-size: small;
+}
+nav{
+    background-color: rgb(27, 30, 50);
+}
+nav .container{
+    margin-left: 13%;
+}
+nav .navbar-brand{
+    font-weight: bold;
+    font-size: 20px;
+}
+nav ul{
+    margin-left: 250px;
+}
+nav ul li{
+    padding-right: 10px;
+    
+}
+body{
+    background-color: rgb(27, 37, 54);
+    color: white;
+}
+.pink{
+    color: rgb(247, 71, 71);
+}
+.container.body{
+    max-width: fit-content;
+    margin: 100px 15%;
+}
+.container.body .segment{
+    margin-bottom: 300px;
+}
+.container.body button{
+    background-color: rgb(247, 71, 71);
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    color: white;
+}
+.container.body h1{
+    font-size: 50px;
+}
+.container.body img{
+    max-width: 50%;
+    border-radius: 40%;
+    border: 0 inset inherit;
+}
+.container.body .underlip{
+    background: rgb(247, 71, 71);
+    width: 10%;
+    height: 5%;
+    margin: 0 0 30px 0;
+}
+.container.body .skill-set{
+    background-color: rgb(30, 41, 61);
+    margin: 0 50px 50px 0;
+    padding: 40px 30px 20px;
+}
+.container.body form{
+    width: 50%;
+}
+.container.body h2{
+    font-size: 40px;
+}
+.container.body form input{
+    background-color: rgb(30, 41, 61);
+    border: none;
+    height: 50px;
+    color: white;
+}
+.container.body form input::placeholder{
+    font-weight: bold;
+}
+.container.body form button{
+    margin-left: 59%;
+}
+
+footer .container{
+    padding-top: 80px;
+    height: 400px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+footer .container ol, ul {
+	list-style: none;
+    padding-left: 0;
+    padding-left: 0100px;
+}
+
+
+
+
+@media (max-width: 900px){
+    nav .container{
+        margin-left: auto;
+    }
+    .container.body {
+        max-width: auto;
+        margin: 50px 20px;
+    }
+    .container.body .skill-set{
+        margin: 0 0 10px;
+        padding: 60px 40px 40px;
+    }
+    .container.body form{
+        width: 100%;
+    }
+    .container.body form button{
+        margin-left: 50%;
+    }
+}
+
